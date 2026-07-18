@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hemen Fashion</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #fff;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      max-width: 1000px;
+      justify-content: center;
+    }
+
+    .gallery a {
+      flex: 1 1 calc(50% - 1rem);
+      max-width: calc(50% - 1rem);
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background: #fafafa;
+      padding: 1rem;
+      border-radius: 10px;
+      height: 300px;
+      text-decoration: none;
+      color: #000;
+    }
+
+    .gallery a:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .gallery p {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f4f4f4;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .gallery a {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Hemen Fashion Logo" class="logo" />
+    <h1>Welcome to Hemen Fashion</h1>
+  </header>
+
+  <main>
+    <section class="gallery">
+      <a href="https://www.instagram.com/hemen.fashion.erbil" target="_blank">
+        <img src="Hemen2_Clothes.jpg" alt="Instagram" />
+        <p>Clothes (Hemen Fashion) جل و بەرگ</p>
+      </a>
+      <a href="https://www.instagram.com/hemen_erbil" target="_blank">
+        <img src="Hemen2_Shoes.jpg" alt="Instagram" />
+        <p>Shoes and Bags (Hemen Fashion) جانتا و پێڵاو</p>
+      </a>
+      <a href="https://www.instagram.com/hemen_vip_" target="_blank">
+        <img src="Hemen3.jpg" alt="Instagram" />
+        <p>Shoes and Bags (Bazaar) جانتا و پێڵاو</p>
+      </a>
+      <a href="https://www.instagram.com/hemen_vip" target="_blank">
+        <img src="Hemen1.jpg" alt="Instagram" />
+        <p>HEMEN VIP</p>
+      </a>
+      <a href="https://www.snapchat.com/add/hemen_fashion" target="_blank">
+        <img src="Snap_Clothes.jpg" alt="Snapchat" />
+        <p>Clothes (Snapchat) جل و بەرگ</p>
+      </a>
+      <a href="https://www.snapchat.com/add/hemen_erbil" target="_blank">
+        <img src="Snap_Bags.jpg" alt="Snapchat" />
+        <p>Shoes and Bags (Snapchat) جانتا و پێڵاو</p>
+      </a>
+      <a href="https://wa.me/+9647701540620" target="_blank">
+        <img src="Whatsapp_Asia.png" alt="WhatsApp" />
+        <p>Whatsapp AsiaCell - 0770 154 0620</p>
+      </a>
+      <a href="https://wa.me/+9647504458074" target="_blank">
+        <img src="Whatsapp_korek.png" alt="WhatsApp" />
+        <p>Whatsapp Korek - 0750 445 8074</p>
+      </a>
+      <a href="https://maps.app.goo.gl/TS5hzT8J4i8Lqy7K7?g_st=ic" target="_blank">
+        <img src="Location.jpg" alt="Location" />
+        <p>Location of Hemen Fashion</p>
+      </a>
+      <a href="https://maps.app.goo.gl/xAW4LZnwiXSk3coS8?g_st=ic" target="_blank">
+        <img src="bazaar.jpg" alt="Location" />
+        <p>Location of Hemen Fashion (Bazaar)</p>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hemen Fashion. All rights reserved.</p>
+  </footer>
+</body>
+</html>
